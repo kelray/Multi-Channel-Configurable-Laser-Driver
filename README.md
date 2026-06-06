@@ -4,6 +4,7 @@ A low-cost, Arduino-friendly four channel programmable LED/Laser driver using  7
 This driver is designed to be low-cost built on a 2-layers PCB, inexpensive microcontroller platform and LED drivers IC "AL5871" to make it affordable to hobbyists, students and low-budget projects.
 
 **How it works:**
+
 The LED/Laser driver is based on AL5871, a 750 mA current-sink driver with analog and PWM control options.
 - Analog control:
 The ESP32 control the amount of current the AL5871 chips can sink using two MCP4822 12-bit Digital-to-Analog Converters (DAC), each DAC controls two channels as follows:  
